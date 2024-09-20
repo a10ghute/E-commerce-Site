@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify-like E-commerce Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo"> 
+                <img src="Images\Ecommerce logo.png" alt="Logo" class="logo"> 
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#cart"><i class="fas fa-shopping-cart"></i> </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-image-left"></div>
+    <div class="hero-image-middle">
+        <h1>Exclusive Products</h1>
+        <p>Best deals available now!</p>
+        <a href="#products" class="cta-button">Shop Now</a>
+    </div>
+    <div class="hero-image-right"></div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="products-section">
+        <h2>Our Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="Images/Product1.jpg" alt="Product 1">
+                <h3>Airpods Pro 2</h3>
+                <p>The AirPods Pro 2 offer enhanced sound quality, active noise cancellation, spatial audio, improved battery life, and a comfortable fit.</p>
+                <h4>$299.00</h4>
+                <button class="buy-btn">Buy Now</button> <!-- Buy button -->
+            </div>
+            <div class="product">
+                <img src="Images/product2.jpg" alt="Product 2">
+                <h3>Macbook Air M2</h3>
+                <p>The MacBook Air M2 features a sleek design, powerful M2 chip, vibrant Retina display, long battery life, and advanced performance.</p>
+                <h4>$1499.00</h4>
+                <button class="buy-btn">Buy Now</button> <!-- Buy button -->
+            </div>
+            <div class="product">
+                <img src="Images/product3.jpg" alt="Product 3">
+                <h3>Ipad Pro 2022</h3>
+                <p>The iPad Pro 2022 boasts a powerful M2 chip, Liquid Retina display, advanced camera system, 5G connectivity, and support for Apple Pencil.</p>
+                <h4>$1299.00</h4>
+                <button class="buy-btn">Buy Now</button> <!-- Buy button -->
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    
+  <!-- Call to Action Section -->
+    <section class="cta-section">
+        <h2>Join Our Community</h2>
+        <p>Sign up today and get exclusive offers and discounts!</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Welcome to Phoenix, your one-stop shop for all electronic devices. Our mission is simple: to provide high-quality <br>
+             products that bring joy and convenience to your life. Whether you’re looking for the latest trends, unique finds,<br>
+             or essentials for everyday living, we’ve got you covered.</p>
+        <h2>Who We Are</h2>
+        <p>At Phoenix, we are passionate about curating a diverse selection of products from trusted brands and artisans.<br>
+           Since our launch, we’ve strived to blend innovation and style with affordability, ensuring that you find something to love.</p>
+        <p>Our team is made up of dedicated professionals who are constantly scouting the market for the best products.<br>
+           We believe in offerin more than just items—we offer a complete shopping experience. Customer satisfaction is our<br>
+           priority, and we’re committed to making sure every transaction feels seamless and enjoyable.</p>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Phoenix. All rights reserved.</p>
+    </footer>
+</body>
+</html>
